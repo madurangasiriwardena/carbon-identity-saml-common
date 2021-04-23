@@ -141,13 +141,6 @@
                 <artifactId>opensaml</artifactId>
                 <version>${org.opensaml.version}</version>
             </dependency>
-            <dependency>
-                <artifactId>guava</artifactId>
-                <groupId>com.google.guava</groupId>
-                <type>jar</type>
-                <version>${google.guava.version}</version>
-            </dependency>
-
 
             <!-- Testing related dependencies -->
             <dependency>
@@ -194,7 +187,6 @@
         <carbon.kernel.version>4.5.0</carbon.kernel.version>
         <maven.buildnumber.plugin.version>1.4</maven.buildnumber.plugin.version>
 
-        <google.guava.version>27.0.1-jre</google.guava.version>
         <wss4j.version>1.5.11-wso2v18</wss4j.version>
 
         <!-- Unit test versions -->

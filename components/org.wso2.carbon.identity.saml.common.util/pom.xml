@@ -42,10 +42,6 @@
             <groupId>org.wso2.orbit.org.opensaml</groupId>
             <artifactId>opensaml</artifactId>
         </dependency>
-        <dependency>
-            <artifactId>guava</artifactId>
-            <groupId>com.google.guava</groupId>
-        </dependency>
 
         <dependency>
             <groupId>org.testng</groupId>
