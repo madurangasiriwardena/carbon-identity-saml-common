@@ -23,6 +23,7 @@
     <test name="identity-core-test-all">
         <classes>
             <class name="org.wso2.carbon.identity.saml.common.util.UnmarshallUtilsTest"/>
+            <class name="org.wso2.carbon.identity.saml.common.util.SAMLSignerUtilsTest"/>
         </classes>
     </test>
 </suite>

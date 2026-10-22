@@ -64,6 +64,11 @@
                 <version>${wss4j.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.apache.santuario</groupId>
+                <artifactId>xmlsec</artifactId>
+                <version>${santuario.xmlsec.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.wso2.orbit.org.opensaml</groupId>
                 <artifactId>opensaml</artifactId>
                 <version>${org.opensaml.version}</version>
@@ -92,6 +97,8 @@
 
     <properties>
         <org.opensaml.version>3.3.1.wso2v1</org.opensaml.version>
+        <!-- Santuario version shipped with the products; wss4j 1.5.x embeds an older copy -->
+        <santuario.xmlsec.version>2.3.4</santuario.xmlsec.version>
         <carbon.kernel.version>4.5.0</carbon.kernel.version>
         <maven.buildnumber.plugin.version>1.4</maven.buildnumber.plugin.version>
 
